@@ -1,0 +1,41 @@
+
+Model: Random Forest
+Classification Report:
+{'0': {'precision': 0.7660577191071022, 'recall': 0.49760295310534547, 'f1-score': 0.6033147848297568, 'support': 425315}, '1': {'precision': 0.967285864769165, 'recall': 0.5375968399891845, 'f1-score': 0.6910968178740691, 'support': 425315}, '2': {'precision': 0.37913765714362924, 'recall': 0.9236565839436652, 'f1-score': 0.5376029187071364, 'support': 425315}, '3': {'precision': 0.9690074513302198, 'recall': 0.3473449090673971, 'f1-score': 0.5113825373720731, 'support': 425315}, 'accuracy': 0.5765503215263981, 'macro avg': {'precision': 0.770372173087529, 'recall': 0.5765503215263981, 'f1-score': 0.5858492646957587, 'support': 1701260}, 'weighted avg': {'precision': 0.7703721730875291, 'recall': 0.5765503215263981, 'f1-score': 0.5858492646957588, 'support': 1701260}}
+Training Time: 0.20 seconds
+ROC-AUC Score: 0.83
+Confusion Matrix:
+[[211638   4299 207591   1787]
+ [ 18064 228648 177423   1180]
+ [ 27962   2750 392845   1758]
+ [ 18605    684 258295 147731]]
+Model: SVM
+Classification Report:
+{'0': {'precision': 0.7145143954812596, 'recall': 0.22038959359533522, 'f1-score': 0.3368721046824629, 'support': 425315}, '1': {'precision': 1.0, 'recall': 0.5332071523459083, 'f1-score': 0.6955448277554225, 'support': 425315}, '2': {'precision': 0.3344062505217115, 'recall': 0.9419183428752806, 'f1-score': 0.4935788011421214, 'support': 425315}, '3': {'precision': 1.0, 'recall': 0.341657359839178, 'f1-score': 0.5093064295941131, 'support': 425315}, 'accuracy': 0.5092931121639256, 'macro avg': {'precision': 0.7622301615007427, 'recall': 0.5092931121639256, 'f1-score': 0.5088255407935299, 'support': 1701260}, 'weighted avg': {'precision': 0.7622301615007427, 'recall': 0.5092931121639256, 'f1-score': 0.5088255407935299, 'support': 1701260}}
+Training Time: 7.55 seconds
+ROC-AUC Score: 0.74
+Confusion Matrix:
+[[ 93735      0 331580      0]
+ [ 12749 226781 185785      0]
+ [ 24703      0 400612      0]
+ [     0      0 280003 145312]]
+Model: Logistic Regression
+Classification Report:
+{'0': {'precision': 0.5658613652820749, 'recall': 0.26274173259819195, 'f1-score': 0.35885792825282037, 'support': 425315}, '1': {'precision': 0.6845495043899259, 'recall': 0.582770417220178, 'f1-score': 0.6295729964922262, 'support': 425315}, '2': {'precision': 0.33211827544746714, 'recall': 0.7780539129821427, 'f1-score': 0.4655240447886018, 'support': 425315}, '3': {'precision': 1.0, 'recall': 0.341657359839178, 'f1-score': 0.5093064295941131, 'support': 425315}, 'accuracy': 0.49130585565992263, 'macro avg': {'precision': 0.6456322862798669, 'recall': 0.4913058556599227, 'f1-score': 0.4908153497819404, 'support': 1701260}, 'weighted avg': {'precision': 0.6456322862798669, 'recall': 0.49130585565992263, 'f1-score': 0.49081534978194036, 'support': 1701260}}
+Training Time: 0.09 seconds
+ROC-AUC Score: 0.76
+Confusion Matrix:
+[[111748  36019 277548      0]
+ [ 23788 247861 153666      0]
+ [ 47790  46607 330918      0]
+ [ 14157  31592 234254 145312]]
+Model: Gradient Boosting
+Classification Report:
+{'0': {'precision': 0.39440785710783915, 'recall': 0.6809541163608149, 'f1-score': 0.49950372144242433, 'support': 425315}, '1': {'precision': 1.0, 'recall': 0.5332071523459083, 'f1-score': 0.6955448277554225, 'support': 425315}, '2': {'precision': 0.47681087835571395, 'recall': 0.6082762188025346, 'f1-score': 0.5345796091939534, 'support': 425315}, '3': {'precision': 0.807375203081268, 'recall': 0.3750678908573645, 'f1-score': 0.5121946520767511, 'support': 425315}, 'accuracy': 0.5493763445916556, 'macro avg': {'precision': 0.6696484846362052, 'recall': 0.5493763445916556, 'f1-score': 0.5604557026171378, 'support': 1701260}, 'weighted avg': {'precision': 0.6696484846362053, 'recall': 0.5493763445916556, 'f1-score': 0.5604557026171378, 'support': 1701260}}
+Training Time: 1.43 seconds
+ROC-AUC Score: 0.80
+Confusion Matrix:
+[[289620      0 119402  16293]
+ [124783 226781  63774   9977]
+ [154817      0 258709  11789]
+ [165096      0 100697 159522]]
