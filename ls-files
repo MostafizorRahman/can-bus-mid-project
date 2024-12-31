@@ -1,0 +1,30 @@
+[33mcommit 014d4bf94198a258f510438e3266c7781a543232[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: MostafizorRahman <mostafizor.rahman15@gmail.com>
+Date:   Tue Dec 31 12:26:24 2024 +0100
+
+    Add dataset with Git LFS
+
+ .gitattributes               | 1 [32m+[m
+ Notebook/can_bus_dataset.csv | 3 [32m+++[m
+ 2 files changed, 4 insertions(+)
+
+[33mcommit 9eabe9a4f0a3092a551cd8d8bbfe251a42ab5c54[m
+Author: MostafizorRahman <mostafizor.rahman15@gmail.com>
+Date:   Tue Dec 31 12:13:10 2024 +0100
+
+    added notebook
+
+ .../IOT_Mid_Project_Mostafizor-checkpoint.ipynb    |   6 [32m+[m
+ .../model_results-checkpoint.txt                   |  41 [32m++[m
+ Notebook/IOT_Mid_Project_Mostafizor.ipynb          | 549 [32m+++++++++++++++++++++[m
+ Notebook/model_results.txt                         |  41 [32m++[m
+ 4 files changed, 637 insertions(+)
+
+[33mcommit 1b22f07fc06ff54f84c6406f88a3259a6eacca13[m
+Author: MostafizorRahman <mostafizor.rahman15@gmail.com>
+Date:   Tue Dec 31 12:01:48 2024 +0100
+
+    first commit
+
+ IOT_Mid_Project_Mostafizor.ipynb | 549 [32m+++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 549 insertions(+)
